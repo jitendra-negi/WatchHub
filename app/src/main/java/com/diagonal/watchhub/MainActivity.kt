@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             WatchhubTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "Welcome",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
